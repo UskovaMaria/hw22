@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    align-items: center;
+    background: #141414;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.header-logo {
+    width: 100px;
+    height: 13px;
+    font-size: 14px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.maintain {
+   padding-left: 15px;
+}
+
+.menu-item {
+	background: transparent;
+	padding: 15px 5px;
+}
+	
+
+.menu li {
+    font-size: 14px;
+}
+
+.menu i {
+    margin-left: 30px;
+}
+
+.menu-item:hover {
+    color: #ff7b00;
+    background: white;
+    padding: 15px 5px;
+}
+
+.menu-item-red:hover {
+    color: red;
+}
+
+.menu-item-red-border:hover {
+    color: red;
+    border: 1px solid red;
+    border-radius: 2px;
+}
+
+.menu-item-white:hover {
+    color: white;
+}
+
+.ikons {
+    color: grey;
+}
+
+.rates {
+    margin-left: 55px;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 5px 15px;
+}
+
+.enter {
+    padding-left: 30px;
+}
