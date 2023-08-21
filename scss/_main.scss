@@ -1,0 +1,127 @@
+.videos {
+    background-image: url(../img/r0x284x4.webp);
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: 40px;
+}
+
+.poster-block {
+    display: flex;
+}
+
+.picture img {
+    margin-left: 40px;
+    width: 140px;
+    height: 210px;
+}
+
+.name-block {
+    margin-left: 40px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.name-item {
+    padding-right: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+.buy {
+    color: #0582d6;
+}
+
+.movie-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.solution-block {
+    display: flex;
+}
+
+.solution {
+    margin-right: 20px;
+}
+
+.solution-item:hover {
+    background: red;
+}
+
+.look {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 180px;
+    height: 45px;
+    background: #ff7b00;
+}
+
+.look p {
+    padding-left: 13px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 13px;
+    color: #d1c6c6;
+    padding-top: 13px;
+}
+
+.bars i {
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid #d1c6c6;
+    width: 80px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.like-block {
+    display: flex;
+    padding-left: 35px;
+    color: #d1c6c6;
+}
+
+.like {
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.like i {
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.like-down:hover,
+.like-down:hover .text {
+    color: red;  
+}
+
+.like-up:hover, 
+.like-up:hover .text {
+    color: green;
+}
